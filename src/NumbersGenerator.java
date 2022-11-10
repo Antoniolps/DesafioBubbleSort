@@ -19,7 +19,7 @@ public class NumbersGenerator {
 			int number = -1;
 			
 			while(newNumber) {
-				number = random.nextInt(1000);
+				number = random.nextInt(101);
 				newNumber = exists(randomNumbers, number);
 			}
 			randomNumbers[i] = number;
